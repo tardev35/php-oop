@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>NEW Learn PHP OOP</h1>
+    <h1>CLASS PHP OOP</h1>
 </body>
 </html>
