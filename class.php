@@ -1,11 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>CLASS PHP OOP</h1>
-</body>
-</html>
+<?php
+class MyClass
+{
+    public $Fname = 'Niran';
+    public function showname()
+    {
+        echo $this->Fname;
+    }
+}
+class Constuct1
+{
+    public $prop = 'Learn OOP';
+    function __construct()
+    {
+        echo $this->prop;
+        $this->hello();
+    }
+    public function hello()
+    {
+        echo 'Hello , PHP';
+    }
+}
+$obj1 = new Constuct1();
+// $obj1->showname();
